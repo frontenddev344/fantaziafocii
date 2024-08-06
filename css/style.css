@@ -129,10 +129,9 @@ header {
 
 /* banner styling  start */
 .home_banner {
-    height: 700px;
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(243, 194, 66, 1) 58%);
-    padding: 180px;
+    padding: 160px;
 }
 
 .banner_box {
@@ -912,6 +911,7 @@ input.form-control.sub_btn:hover {
 
 .contact_social ul {
     display: flex;
+    margin-top: 20px !important;
 }
 
 .contact_social ul {
@@ -950,4 +950,8 @@ input.form-control.sub_btn:hover {
     background: transparent;
     border: 1px solid #0e46a31a;
     color: var(--primary-color);
+}
+
+.info {
+    margin: 30px 0;
 }
