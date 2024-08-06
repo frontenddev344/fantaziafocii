@@ -185,8 +185,8 @@ header {
     transform: translate(-50%, -50%);
 } */
 .banner_img img {
-    width: 540px;
-    height: 440px;
+    max-width: 540px;
+    height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
