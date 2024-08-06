@@ -214,8 +214,18 @@ header {
     padding: 60px 0;
 }
 
+.user_box h2 {
+    color: #000;
+    font-size: 28px;
+}
+
 .user_box {
     text-align: center;
+}
+
+.user_box img {
+    width: 70%;
+    margin-bottom: 10px;
 }
 
 /* user styling end */
@@ -237,72 +247,7 @@ a.common_btn:hover {
     background: transparent;
 }
 
-/* blog post styling start */
-.blog {
-    padding: 60px 0;
-}
 
-.blog_box {
-    background: #ededed;
-    padding: 20px 20px 30px;
-    text-align: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.blog_box h3 {
-    font-size: 24px;
-}
-
-.blog_box p {
-    margin-bottom: 30px;
-}
-
-.blog_box img {
-    margin-bottom: 20px;
-    height: 290px;
-    object-fit: cover;
-    transition: all 0.3s linear;
-}
-
-.blog .row {
-    row-gap: 20px;
-}
-
-.blog_box img:hover {
-    filter: grayscale(1);
-}
-
-.blog_h h2 {
-    margin-bottom: 50px;
-}
-
-.left_side_ab p {
-    margin-top: 30px !important;
-}
-
-.after_banner_section.section {
-    background: whitesmoke;
-}
-
-.after_banner_section.section.home {
-    background: #fff;
-    padding: 60px 0;
-}
-
-.luxury_hotels_inner img {
-    transition: all 0.5s;
-    padding: 40px;
-}
-
-.luxury_hotels_inner img:hover {
-    filter: brightness(0.5);
-}
-
-/* blog post styling end */
 /* home aside styling */
 .events {
     display: flex;
@@ -900,7 +845,7 @@ a.contact_btn:hover {
 }
 
 section.newsletter {
-    background: #ededed;
+    background: #fafafa;
     padding: 50px 0;
 }
 
