@@ -971,4 +971,15 @@ input.form-control.sub_btn:hover {
     text-align: center;
 }
 
+.about_box img {
+    width: 100%;
+    max-width: 14%;
+    margin-bottom: 20px;
+}
+
+.about_box {
+    text-align: center;
+    margin-top: 60px;
+}
+
 /* about page styling end */
