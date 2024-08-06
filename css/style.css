@@ -154,7 +154,8 @@ header {
 }
 
 .detail_text img {
-    width: 80%;
+    width: 100%;
+    max-width: 80%;
 }
 
 .detail_text {
