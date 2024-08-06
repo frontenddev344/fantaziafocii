@@ -866,7 +866,7 @@ section.newsletter.download-app {
 }
 
 /* get styling end */
-/* banner styling blog start */
+/* contact styling start */
 
 .form-control {
     padding: 10px;
@@ -959,3 +959,4 @@ input.form-control.sub_btn:hover {
 .banner_img.contact p {
     margin-bottom: 30px;
 }
+/* contact styling end */
