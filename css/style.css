@@ -890,3 +890,8 @@ input.form-control.sub_btn:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+.banner_img.contact {
+    background: #fafafa;
+    padding: 30px;
+}
