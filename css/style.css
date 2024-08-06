@@ -790,9 +790,10 @@ a.contact_btn:hover {
 }
 
 .newsletter-heading h4 {
-    font-size: 1.5625rem;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin: 0 auto 20px;
     color: var(--primary-color);
+    max-width: 430px;
 }
 
 .newsletter-heading p {
@@ -812,8 +813,8 @@ a.contact_btn:hover {
     width: 19%;
     height: 45px;
     border: none;
-    background: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
     color: #fff;
     font-size: 1rem;
     transition: all 0.3s linear;
