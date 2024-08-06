@@ -895,3 +895,13 @@ input.form-control.sub_btn:hover {
     background: #fafafa;
     padding: 30px;
 }
+
+.info_one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.info_one img {
+    max-width: 24px;
+}
