@@ -856,6 +856,11 @@ section.newsletter.download-app {
 }
 
 /* email styling start */
+/* get styling start */
+.get_started {
+    padding: 60px 0;
+}
+/* get styling end */
 /* banner styling blog start */
 .blog_base {
     height: 400px;
