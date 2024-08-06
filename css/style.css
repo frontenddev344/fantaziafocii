@@ -860,6 +860,14 @@ section.newsletter.download-app {
 .get_started {
     padding: 60px 0;
 }
+
+.get_box img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin: 30px 0;
+}
+
 /* get styling end */
 /* banner styling blog start */
 .blog_base {
