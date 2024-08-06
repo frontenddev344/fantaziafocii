@@ -877,8 +877,8 @@ section.newsletter.download-app {
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
     color: #fff;
     border: 1px solid transparent;
     transition: all 0.5s;
