@@ -868,145 +868,25 @@ section.newsletter.download-app {
 
 /* get styling end */
 /* banner styling blog start */
-.blog_base {
-    height: 400px;
-    background-image: url(../img/basketblofb.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #00000024;
+    border-radius: unset;
 }
 
-.blog_base::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
+input.form-control.sub_btn {
+    width: 200px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.5s;
 }
 
-.banner_box.blog h1 {
-    font-size: 40px;
-}
-
-.blog_baseone {
-    height: 400px;
-    background-image: url(../img/womenbanner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_baseone::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
-}
-
-.blog_foot {
-    height: 400px;
-    background-image: url(../img/blogfootbanner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_foot::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
-}
-
-.blog_foot2 {
-    height: 400px;
-    background-image: url(../img/footballblog2banner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_foot2::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
-}
-
-.left_side_ab img {
-    max-width: 100%;
-    height: 470px;
-    object-fit: cover;
-}
-
-.blog_volley {
-    height: 400px;
-    background-image: url(../img/blogvolleybanner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_volley::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
-}
-
-.blog_volleytwo {
-    height: 400px;
-    background-image: url(../img/volleyballbanner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_volleytwo::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
-}
-
-.blog_hand {
-    height: 400px;
-    background-image: url(../img/handballblogb.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.blog_hand::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    background: var(--primary-color);
-    opacity: 0.75;
-    height: 100%;
-    z-index: 0;
+input.form-control.sub_btn:hover {
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
