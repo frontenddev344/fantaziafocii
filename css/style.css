@@ -491,15 +491,11 @@ img.second {
 }
 
 /* privacy styling end */
-/*terms start*/
-section.terms_conditons {
-    padding: 60px 0;
-}
-
+/* terms styling start */
 .terms__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/terms.jpg);
+    background-image: url(../image/termsbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -522,15 +518,49 @@ section.terms_conditons {
     z-index: -1;
 }
 
-.terms-conditions {
+.terms_conditons {
     padding: 40px 0;
 }
 
+section.terms_conditons h3 {
+    margin-top: 10px;
+}
+
+.terms_conditons a {
+    color: #000;
+    font-weight: 700;
+}
+
 .terms__section .banner__text h1 {
-    color: var(--primary-color);
+    color: #fff;
     text-transform: uppercase;
 }
 
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--main-color);
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.terms_conditons ul li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.terms_conditons ol li {
+    margin-left: -9px;
+    list-style-type: unset;
+
+}
 
 /* terms styling end */
 
