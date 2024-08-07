@@ -263,6 +263,7 @@ a.common_btn:hover {
 /* home aside styling */
 .events {
     display: block;
+    margin-bottom: 30px;
 }
 
 .box img {
