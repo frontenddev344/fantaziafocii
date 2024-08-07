@@ -1026,12 +1026,18 @@ input.form-control.sub_btn:hover {
 
 .blog {
     text-align: center;
-}
-
-.blog {
-    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px #d7dfe2;
+    background: white;
+    border-radius: 5px;
+    width: 100%;
     padding: 20px;
-    box-shadow: 2px 3px 4px;
+    height: 100%;
+    transition: 250ms all ease-in-out;
+    cursor: pointer;
+}
+.blog:hover {
+    transform: scale(1.05);
 }
 
 /* blog styling end */
