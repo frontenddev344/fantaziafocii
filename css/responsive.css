@@ -127,10 +127,14 @@
         width: 90px;
     }
 
+    .news-form input {
+        width: 100%;
+    }
+
     .seven h2 {
         display: block;
         width: 100%;
-        
+
     }
 
     .banner_box h1 {
