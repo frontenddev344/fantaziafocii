@@ -1,8 +1,9 @@
 @media screen and (max-width:1200px) {
     .active {
-        color:#fff;
+        color: #fff !important;
         border-bottom: 2px solid #fff;
     }
+
     body.toggle .navlink {
         transform: translateX(0);
 
@@ -56,6 +57,7 @@
         margin-left: -15px;
 
     }
+
     .navlink ul li {
         padding: 10px;
     }
