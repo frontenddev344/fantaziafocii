@@ -1116,7 +1116,7 @@ input.form-control.sub_btn:hover {
 .blog_banner::before {
     position: absolute;
     content: '';
-    background: #000000a8;
+    background: #ffffff5c;
     width: 100%;
     height: 100%;
     z-index: 0;
