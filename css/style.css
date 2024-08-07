@@ -268,7 +268,6 @@ a.common_btn:hover {
 
 .box img {
     width: 100%;
-    max-width: 300px;
     height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
@@ -1141,7 +1140,7 @@ input.form-control.sub_btn:hover {
 .banner_box.blog_head h1 {
     font-size: 45px;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--main-color);
 }
 
 .blog_post {
