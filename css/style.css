@@ -155,7 +155,7 @@ header {
 
 .detail_text img {
     width: 100%;
-    max-width: 80%;
+    margin-bottom: 20px;
 }
 
 .detail_text {
