@@ -566,23 +566,6 @@ section.terms_conditons h3 {
 
 /* footer styling */
 
-a,
-a:active,
-a:focus {
-    color: #333;
-    text-decoration: none;
-    transition-timing-function: ease-in-out;
-    -ms-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-}
-
 .footer {
     background-color: var(--primary-color);
     padding: 40px 0;
@@ -658,7 +641,7 @@ a.contact_btn:hover {
 }
 
 .single_footer ul li a:hover {
-   color: var(--main-color);
+    color: var(--main-color);
 }
 
 .single_footer_address ul li {
@@ -1046,6 +1029,70 @@ input.form-control.sub_btn:hover {
 
 .blog_h h2 {
     margin-bottom: 50px;
+}
+
+.blog {
+    padding: 60px 0;
+}
+
+.blog_box {
+    background: #ededed;
+    padding: 20px 20px 30px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog_box h3 {
+    font-size: 24px;
+}
+
+.blog_box p {
+    margin-bottom: 30px;
+}
+
+.blog_box img {
+    margin-bottom: 20px;
+    height: 290px;
+    object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.blog .row {
+    row-gap: 20px;
+}
+
+.blog_box img:hover {
+    filter: grayscale(1);
+}
+
+.blog_h h2 {
+    margin-bottom: 50px;
+}
+
+.left_side_ab p {
+    margin-top: 30px !important;
+}
+
+.after_banner_section.section {
+    background: whitesmoke;
+}
+
+.after_banner_section.section.home {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.luxury_hotels_inner img {
+    transition: all 0.5s;
+    padding: 40px;
+}
+
+.luxury_hotels_inner img:hover {
+    filter: brightness(0.5);
 }
 
 /* blog styling end */
