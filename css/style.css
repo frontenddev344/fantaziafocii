@@ -590,10 +590,9 @@ a:focus {
 
 a.contact_btn {
     text-decoration: none;
-    padding: 12px 60PX;
+    padding: 12px 30px;
     color: var(--primary-color) !important;
     background: #fff;
-    border: 1px solid #fff;
     transition: all 0.5s;
     border-radius: 5px;
     font-size: 18px;
@@ -659,7 +658,7 @@ a.contact_btn:hover {
 }
 
 .single_footer ul li a:hover {
-    color: var(--secondary-color);
+    border: none;
 }
 
 .single_footer_address ul li {
