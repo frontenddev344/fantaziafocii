@@ -10,7 +10,7 @@
 
     .open {
         display: block;
-        color: var(--primary-color);
+        color: #000;
         font-size: 30px;
     }
 
@@ -84,6 +84,7 @@
         font-size: 18px;
         text-align: left;
     }
+
     h2 {
         font-size: 30px;
         text-transform: capitalize;
@@ -169,6 +170,10 @@
 
     .seven h2:after,
     .seven h2:before {
+        display: none;
+    }
+
+    .social_profile.upper {
         display: none;
     }
 
