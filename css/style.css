@@ -131,9 +131,11 @@ header {
 .home_banner {
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(243, 194, 66, 1) 58%);
-    padding: 160px;
+    padding: 160px 0;
 }
-
+.home_banner .row {
+    row-gap: 30px;
+}
 .banner_box {
     display: flex;
     flex-direction: column;
