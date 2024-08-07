@@ -1024,4 +1024,14 @@ input.form-control.sub_btn:hover {
     color: #000;
 }
 
+.blog {
+    text-align: center;
+}
+
+.blog {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 3px 4px;
+}
+
 /* blog styling end */
