@@ -1014,3 +1014,14 @@ input.form-control.sub_btn:hover {
 }
 
 /* about page styling end */
+/* blog styling start */
+.blog_post {
+    padding: 60px 0;
+}
+
+.blog h2 {
+    font-size: 24px;
+    color: #000;
+}
+
+/* blog styling end */
