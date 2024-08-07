@@ -262,18 +262,15 @@ a.common_btn:hover {
 
 /* home aside styling */
 .events {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    gap: 20px;
+    display: block;
 }
 
 .box img {
     width: 100%;
     max-width: 300px;
-    height: 100px;
+    height: 150px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .box img:hover {
