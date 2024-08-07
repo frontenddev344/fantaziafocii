@@ -71,6 +71,7 @@ h2 {
     border-bottom: 2px solid var(--primary-color);
 }
 
+
 /* navbar styling  */
 
 .logo img {
@@ -104,6 +105,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.social_profile.upper ul li a {
+    color: #000 !important;
+    border-color: #000;
+}
 
 
 .open {
@@ -133,9 +138,11 @@ header {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(243, 194, 66, 1) 58%);
     padding: 160px 0;
 }
+
 .home_banner .row {
     row-gap: 30px;
 }
+
 .banner_box {
     display: flex;
     flex-direction: column;
