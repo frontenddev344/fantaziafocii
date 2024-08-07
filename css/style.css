@@ -1036,8 +1036,15 @@ input.form-control.sub_btn:hover {
     transition: 250ms all ease-in-out;
     cursor: pointer;
 }
+
 .blog:hover {
     transform: scale(1.05);
+}
+
+.blog img {
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 /* blog styling end */
