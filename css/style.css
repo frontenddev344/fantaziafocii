@@ -532,7 +532,7 @@ section.terms_conditons h3 {
 }
 
 .terms__section .banner__text h1 {
-    color: #fff;
+    color: var(--primary-color);
     text-transform: uppercase;
 }
 
