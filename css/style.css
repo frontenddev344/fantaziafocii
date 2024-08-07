@@ -281,7 +281,7 @@ a.common_btn:hover {
 .box2 h4 {
     font-size: 18px;
     margin-bottom: 2px;
-    color:var(--main-color);
+    color: var(--main-color);
 }
 
 .row.upcoming_events {
@@ -1149,6 +1149,14 @@ input.form-control.sub_btn:hover {
 
 .blog_post .row {
     row-gap: 30px;
+}
+
+.left_side_ab h2 {
+    color: var(--main-color);
+}
+
+.left_side_ab {
+    text-align: center;
 }
 
 /* blog styling end */
