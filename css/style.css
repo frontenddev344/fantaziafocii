@@ -1095,4 +1095,39 @@ input.form-control.sub_btn:hover {
     filter: brightness(0.5);
 }
 
+.blog_foot::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
+
+.blog_base {
+    height: 400px;
+    background-image: url(../img/footballblog2banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_base::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
+
+.left_side_ab img {
+    max-width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
 /* blog styling end */
