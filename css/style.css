@@ -96,7 +96,7 @@ h2 {
 }
 
 .navlink ul li a {
-    color: var(--primary-color);
+    color: var(--main-color);
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
