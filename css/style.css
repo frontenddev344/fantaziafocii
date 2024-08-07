@@ -658,7 +658,7 @@ a.contact_btn:hover {
 }
 
 .single_footer ul li a:hover {
-    border: none;
+    border: none !important;
 }
 
 .single_footer_address ul li {
