@@ -1164,3 +1164,10 @@ input.form-control.sub_btn:hover {
 }
 
 /* blog styling end */
+.left_side_ab {
+    display: none;
+}
+
+.left_side_ab.active {
+    display: block;
+}
