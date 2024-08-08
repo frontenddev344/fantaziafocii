@@ -527,7 +527,7 @@ img.second {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: #fafafa78;
     z-index: -1;
 }
 
@@ -545,7 +545,7 @@ section.terms_conditons h3 {
 }
 
 .terms__section .banner__text h1 {
-    color: var(--primary-color);
+    color: var(--main-color);
     text-transform: uppercase;
 }
 
