@@ -1158,6 +1158,7 @@ input.form-control.sub_btn:hover {
 
 .left_side_ab h2 {
     color: var(--main-color);
+    font-size: 24px;
 }
 
 .left_side_ab {
