@@ -1103,8 +1103,9 @@ input.form-control.sub_btn:hover {
 
 .left_side_ab img {
     max-width: 100%;
-    height: 470px;
+    height: 260px;
     object-fit: cover;
+    margin-top: 10px;
 }
 
 .blog_banner {
@@ -1161,6 +1162,9 @@ input.form-control.sub_btn:hover {
 
 .left_side_ab {
     text-align: center;
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 /* blog styling end */
