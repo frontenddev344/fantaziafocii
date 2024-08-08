@@ -475,7 +475,7 @@ img.second {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: #fafafa78;
     z-index: -1;
 }
 
@@ -484,7 +484,7 @@ img.second {
 }
 
 .privacy__section .banner__text h1 {
-    color: var(--primary-color);
+    color: var(--main-color);
     text-transform: uppercase;
 }
 
