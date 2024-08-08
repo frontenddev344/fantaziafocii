@@ -1166,6 +1166,7 @@ input.form-control.sub_btn:hover {
     background: #fafafa;
     padding: 10px;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 4px;
 }
 
 /* blog styling end */
