@@ -1177,4 +1177,9 @@ input.form-control.sub_btn:hover {
     box-shadow: 2px 2px 4px;
 }
 
+.right_side_ab {
+    position: sticky;
+    top: 20px;
+}
+
 /* blog styling end */

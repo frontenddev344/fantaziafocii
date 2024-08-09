@@ -130,7 +130,7 @@
                     </div>
 
 
-                    <div class="left_side_ab" id="maraid">
+                    <!-- <div class="left_side_ab" id="maraid">
                         <img src="img/maraid.jpg" alt="blog" class="img-fluid">
                         <h2>Jude Bellingham ragyog a Real Madridban</h2>
                         <span>Készülő sztár</span>
@@ -240,7 +240,7 @@
                             iránymutatás, valamint a VAR-beavatkozások jobb kommunikációja a rajongókkal. A VAR
                             folyamatban lévő fejlesztése célja a hatékonyság növelése és annak biztosítása, hogy
                             pozitívan járuljon hozzá a játék integritásához.</p>
-                    </div>
+                    </div> -->
 
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
@@ -398,7 +398,37 @@
             });
         });
     </script>
+    <script>
+        var eventsEL = document.querySelectorAll(".events");
 
+        eventsEL.forEach(function (eventElement) {
+            eventElement.addEventListener("mouseenter", function () {
+                var imgEL = eventElement.querySelector(".box a img");
+                var h4El = eventElement.querySelector(".box2 a h4");
+
+                if (imgEL && h4El) {
+                    console.log(imgEL.src);
+                    console.log(h4El.textContent);
+
+                    var left_sideEL = document.querySelector(".left_side_ab");
+                    left_sideEL.innerHTML = `
+                <div class="left_side_ab" id="messi">
+                    <img src="${imgEL.src}" alt="blog" class="img-fluid">
+                    <h2>${h4El.textContent}</h2>
+                    <span>Új korszak az MLS-ben</span>
+                    <p class="mt-3">Mióta 2023 júliusában csatlakozott az Inter Miamihoz, Lionel Messi átalakító
+                        hatással volt a
+                        Major League Soccerre (MLS). Az argentin szupersztár nemcsak a liga profilját emelte fel,
+                        de az izgalmak új szintjét is az amerikai futballba hozta. Messi teljesítménye nem volt más,
+                        mint látványos, beleértve az Inter Miami győzelmét a Ligakupában, valamint a
+                        kulcsfontosságú gólokat és gólpasszokat. Jelenléte az MLS látogatottságát és nézettségét is
+                        növelte, bizonyítva tartós befolyását és a futball növekvő vonzerejét az Egyesült
+                        Államokban.</p>
+                </div>`;
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
