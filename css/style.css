@@ -755,6 +755,7 @@ a.contact_btn:hover {
     background: #fafafa;
     color: #000;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .panel-body {
