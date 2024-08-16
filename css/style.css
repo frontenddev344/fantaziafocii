@@ -752,8 +752,8 @@ a.contact_btn:hover {
 .panel-default>.panel-heading a {
     display: block;
     padding: 10px 15px;
-    background: var(--main-color);
-    color: #fff;
+    background: #fafafa;
+    color: #000;
     border-radius: 10px;
 }
 
@@ -824,7 +824,7 @@ a.contact_btn:hover {
     width: 50%;
     padding: 10px;
     border: none;
-    background-color: #fafafa;
+    background-color: #e8e8e8;
 }
 
 .news-form button {
