@@ -196,6 +196,7 @@
     .single_footer.single_footer_address.below_address ul {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 0px;
+        margin-bottom: 10px;
     }
 }
