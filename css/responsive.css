@@ -73,6 +73,13 @@
         max-width: 20%;
     }
 
+    .single_footer.single_footer_address.below_address ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 10px;
+    }
+
 }
 
 
@@ -193,10 +200,5 @@
         width: 30%;
         margin-top: 10px;
     }
-    .single_footer.single_footer_address.below_address ul {
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        margin-bottom: 10px;
-    }
+
 }
