@@ -4,6 +4,10 @@
         border-bottom: 2px solid #fff;
     }
 
+    .upcoming_events {
+        display: none;
+    }
+
     body.toggle .navlink {
         transform: translateX(0);
 
@@ -120,6 +124,11 @@
         text-align: left;
     }
 
+    .banner_box.blog_head h1 {
+        font-size: 35px;
+       
+    }
+
     .news {
         max-width: 100%;
     }
@@ -167,6 +176,9 @@
 
 
 @media screen and (max-width:575px) {
+    .banner_box.blog_head h1 {
+        font-size: 30px;
+    }
     .box img {
         width: 100%;
     }
