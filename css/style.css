@@ -848,7 +848,7 @@ a.contact_btn:hover {
 }
 
 .email-form button {
-    width: 19%;
+    width: 40%;
     height: 45px;
     border: none;
     background: var(--primary-color);

@@ -61,6 +61,9 @@
     .navlink ul li {
         padding: 10px;
     }
+    .news {
+        max-width: 90%;
+    }
 }
 
 @media screen and (max-width:991px) {
