@@ -205,4 +205,8 @@
         margin-left: 0;
         width: 100%;
     }
+
+    .user_box img {
+        width: 40%;
+    }
 }
