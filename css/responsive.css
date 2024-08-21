@@ -168,7 +168,7 @@
 
 @media screen and (max-width:575px) {
     .box img {
-        width: 90px;
+        width: 100%;
     }
 
     .about_box img {
