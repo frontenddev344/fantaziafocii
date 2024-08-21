@@ -87,22 +87,27 @@
     .email-heading h4 {
         font-size: 20px;
     }
+
     .news img {
         max-width: 100%;
     }
+
     .news {
         display: block;
-        
+
     }
+
     .email-heading h4 {
         margin: 30px auto;
         text-align: center;
         font-size: 24px;
-       
+
     }
+
     .email-form {
         text-align: center;
     }
+
     .email-form input {
         width: 47%;
     }
@@ -238,5 +243,10 @@
 
     .user_box img {
         width: 40%;
+    }
+
+    .email-form input {
+        width: 70%;
+        margin-bottom: 10px;
     }
 }
