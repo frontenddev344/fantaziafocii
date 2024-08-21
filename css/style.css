@@ -800,9 +800,17 @@ a.contact_btn:hover {
 
 
 /* email styling start */
-.newsletter-wrap {
-    max-width: 800px;
-    margin: 0 auto;
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+.news img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.email-wrap {
     text-align: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 50px 30px;
@@ -810,19 +818,19 @@ a.contact_btn:hover {
     background-color: #fff;
 }
 
-.newsletter-heading h4 {
+.email-heading h4 {
     font-size: 24px;
     margin: 0 auto 20px;
     color: var(--main-color);
     max-width: 430px;
 }
 
-.newsletter-heading p {
+.email-heading p {
     font-size: 1rem;
     color: #333;
 }
 
-.news-form input {
+.email-form input {
     height: 45px;
     width: 50%;
     padding: 10px;
@@ -830,7 +838,7 @@ a.contact_btn:hover {
     background-color: #e8e8e8;
 }
 
-.news-form button {
+.email-form button {
     width: 19%;
     height: 45px;
     border: none;
@@ -841,7 +849,7 @@ a.contact_btn:hover {
     transition: all 0.3s linear;
 }
 
-.news-form button:hover {
+.email-form button:hover {
     background: transparent;
     color: var(--primary-color);
 }
@@ -856,22 +864,22 @@ a.contact_btn:hover {
     margin-top: 20px;
 }
 
-.download-app .newsletter-wrap {
+.download-app .email-wrap{
     max-width: 100%;
     background: var(--primary-color);
     box-shadow: none;
 }
 
-.download-app .newsletter-heading h4 {
+.download-app .email-heading h4 {
     color: #fff;
 }
 
-section.newsletter {
+section.email_box {
     background: #fafafa;
     padding: 50px 0;
 }
 
-section.newsletter.download-app {
+section.email_box.download-app {
     background: transparent;
     margin-top: 0;
 }
