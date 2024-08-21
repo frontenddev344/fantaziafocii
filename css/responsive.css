@@ -69,6 +69,9 @@
         margin-top: 20px;
     }
 
+    .about_box img {
+        max-width: 20%;
+    }
 
 }
 
@@ -114,12 +117,20 @@
     .soccer {
         padding: 40px 0;
     }
+
+    .about_box img {
+        max-width: 30%;
+    }
 }
 
 
 @media screen and (max-width:575px) {
     .box img {
         width: 90px;
+    }
+
+    .about_box img {
+        max-width: 44%;
     }
 
     .news-form input {
