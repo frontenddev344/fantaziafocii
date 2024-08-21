@@ -801,21 +801,30 @@ a.contact_btn:hover {
 
 /* email styling start */
 .news {
-    display: flex;
-    justify-content: center;
-}
-
-.news img {
     width: 100%;
-    max-width: 400px;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0px 30px 30px;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
 .email-wrap {
-    text-align: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 50px 30px;
-    border-radius: 10px;
-    background-color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.news img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: -56px;
+    border: 2px solid #f3c242;
 }
 
 .email-heading h4 {
@@ -864,7 +873,7 @@ a.contact_btn:hover {
     margin-top: 20px;
 }
 
-.download-app .email-wrap{
+.download-app .email-wrap {
     max-width: 100%;
     background: var(--primary-color);
     box-shadow: none;
@@ -876,7 +885,7 @@ a.contact_btn:hover {
 
 section.email_box {
     background: #fafafa;
-    padding: 50px 0;
+    padding: 100px 0 50px;
 }
 
 section.email_box.download-app {
