@@ -1238,8 +1238,8 @@ input.form-control.sub_btn:hover {
   
   .info p {
     font-size: 15px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 500;
+    color: #000;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
